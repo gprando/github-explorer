@@ -4,6 +4,8 @@
     "es6": true
   },
   "extends": [
+    "prettier/@typescript-eslint",
+    "plugin:prettier/recommended",
     "plugin:@typescript-eslint/recommended",
     "plugin:react/recommended",
     "airbnb"
@@ -21,11 +23,13 @@
     "sourceType": "module"
   },
   "plugins": [
+    "prettier",
     "react-hooks",
     "react",
     "@typescript-eslint"
   ],
   "rules": {
+    "prettier/prettier": "error",
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "warn",
     "react/jsx-filename-extension": [
