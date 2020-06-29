@@ -27,42 +27,6 @@ const Dashboard: React.FC = () => (
         </div>
         <FiChevronRight size={20} />
       </a>
-      <a href="/">
-        <img
-          src="https://avatars0.githubusercontent.com/u/50037292?s=460&u=c9143ea90d7f81261eba361280672ea210469aa4&v=4"
-          alt="Gabriel Prando"
-        />
-
-        <div>
-          <strong>gprando/guia_git</strong>
-          <p>Um guia rápido e funcional de git</p>
-        </div>
-        <FiChevronRight size={20} />
-      </a>
-      <a href="/">
-        <img
-          src="https://avatars0.githubusercontent.com/u/50037292?s=460&u=c9143ea90d7f81261eba361280672ea210469aa4&v=4"
-          alt="Gabriel Prando"
-        />
-
-        <div>
-          <strong>gprando/guia_git</strong>
-          <p>Um guia rápido e funcional de git</p>
-        </div>
-        <FiChevronRight size={20} />
-      </a>
-      <a href="/">
-        <img
-          src="https://avatars0.githubusercontent.com/u/50037292?s=460&u=c9143ea90d7f81261eba361280672ea210469aa4&v=4"
-          alt="Gabriel Prando"
-        />
-
-        <div>
-          <strong>gprando/guia_git</strong>
-          <p>Um guia rápido e funcional de git</p>
-        </div>
-        <FiChevronRight size={20} />
-      </a>
     </Repositories>
   </>
 );
